@@ -1,0 +1,33 @@
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-col{
+    flex-grow: 1;
+    
+}
+
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5000px, 1fr));
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-black{
+    background-color: black;
+    color: white;
+
+}
+
+.qr-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
